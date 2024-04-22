@@ -10,29 +10,11 @@ ref https://github.com/bowang-lab/MedSAM
 5. run `pip install -e .`
 
 ## Get Started
-1. Download the [model checkpoint](https://drive.google.com/drive/folders/1ETWmi4AiniJeWOt6HAsYgTjYv_fkgzoN?usp=drive_link) and place it at e.g., `work_dir/MedSAM/medsam_vit_b`
-
-
-
----
-
-This is the official repository for MedSAM: Segment Anything in Medical Images.
-
-## News
-
-- 2024.01.15: Welcome to join [CVPR 2024 Challenge: MedSAM on Laptop](https://www.codabench.org/competitions/1847/)
-- 2024.01.15: Release [LiteMedSAM](https://github.com/bowang-lab/MedSAM/blob/LiteMedSAM/README.md) and [3D Slicer Plugin](https://github.com/bowang-lab/MedSAMSlicer), 10x faster than MedSAM! 
-
-
-
-
-
-## Get Started
 Download the [model checkpoint](https://drive.google.com/drive/folders/1ETWmi4AiniJeWOt6HAsYgTjYv_fkgzoN?usp=drive_link) and place it at e.g., `work_dir/MedSAM/medsam_vit_b`
 
 We provide three ways to quickly test the model on your images
 
-1. Command line
+1. Command line（未验证）
 
 ```bash
 python MedSAM_Inference.py # segment the demo image
@@ -57,7 +39,8 @@ Segment other images with the following flags
 
 试图展示原来的照片，但是发现没区别。
 
-3. GUI
+
+3. GUI（未验证）
 
 Install `PyQt5` with [pip](https://pypi.org/project/PyQt5/): `pip install PyQt5 ` or [conda](https://anaconda.org/anaconda/pyqt): `conda install -c anaconda pyqt`
 
@@ -68,18 +51,20 @@ python gui.py
 Load the image to the GUI and specify segmentation targets by drawing bounding boxes.
 
 
+---
 
-https://github.com/bowang-lab/MedSAM/assets/19947331/a8d94b4d-0221-4d09-a43a-1251842487ee
+This is the official repository for MedSAM: Segment Anything in Medical Images.
 
+## News
 
-
-
+- 2024.01.15: Welcome to join [CVPR 2024 Challenge: MedSAM on Laptop](https://www.codabench.org/competitions/1847/)
+- 2024.01.15: Release [LiteMedSAM](https://github.com/bowang-lab/MedSAM/blob/LiteMedSAM/README.md) and [3D Slicer Plugin](https://github.com/bowang-lab/MedSAMSlicer), 10x faster than MedSAM! 
 
 ## Model Training
 
 ### Data preprocessing
 
-Download [SAM checkpoint](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth) and place it at `work_dir/SAM/sam_vit_b_01ec64.pth` .
+1. Download [SAM checkpoint](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth) and place it at `work_dir/SAM/sam_vit_b_01ec64.pth` .
 
 Download the demo [dataset](https://zenodo.org/record/7860267) and unzip it to `data/FLARE22Train/`.
 
