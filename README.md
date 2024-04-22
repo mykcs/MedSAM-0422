@@ -86,6 +86,8 @@ python pre_CT_MR.py
 - resample image size to `1024x2014`
 - save the pre-processed images and labels as `npy` files
 
+运行后有95.69GB。
+![img.png](assets/img-pre_CT_MR.png)
 
 ### Training on multiple GPUs (Recommend)
 
