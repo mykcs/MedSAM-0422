@@ -4,3 +4,4 @@
 work_dir/MedSAM/medsam_vit_b.pth
 medsam_vit_b.pth
 .DS_Store
+segment_anything/.DS_Store
