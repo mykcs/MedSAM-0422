@@ -4,7 +4,10 @@ ref https://github.com/bowang-lab/MedSAM
 
 ## Installation
 1. Create a virtual environment `env-MedSAM-0422`, python=3.10
-2. 
+2. `pip3 install torch torchvision torchaudio`
+3. git clone
+4. enter folder
+5. run `pip install -e .`
 
 This is the official repository for MedSAM: Segment Anything in Medical Images.
 
