@@ -4,10 +4,17 @@ ref https://github.com/bowang-lab/MedSAM
 
 ## Installation
 1. Create a virtual environment `env-MedSAM-0422`, python=3.10
-2. `pip3 install torch torchvision torchaudio`
+2. run`pip3 install torch torchvision torchaudio`
 3. git clone
 4. enter folder
 5. run `pip install -e .`
+
+## Get Started
+1. Download the [model checkpoint](https://drive.google.com/drive/folders/1ETWmi4AiniJeWOt6HAsYgTjYv_fkgzoN?usp=drive_link) and place it at e.g., `work_dir/MedSAM/medsam_vit_b`
+
+
+
+---
 
 This is the official repository for MedSAM: Segment Anything in Medical Images.
 
@@ -17,11 +24,7 @@ This is the official repository for MedSAM: Segment Anything in Medical Images.
 - 2024.01.15: Release [LiteMedSAM](https://github.com/bowang-lab/MedSAM/blob/LiteMedSAM/README.md) and [3D Slicer Plugin](https://github.com/bowang-lab/MedSAMSlicer), 10x faster than MedSAM! 
 
 
-## Installation
-1. Create a virtual environment `conda create -n medsam python=3.10 -y` and activate it `conda activate medsam`
-2. Install [Pytorch 2.0](https://pytorch.org/get-started/locally/)
-3. `git clone https://github.com/bowang-lab/MedSAM`
-4. Enter the MedSAM folder `cd MedSAM` and run `pip install -e .`
+
 
 
 ## Get Started
