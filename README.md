@@ -1,4 +1,7 @@
-# MedSAM
+# MedSAM-0422
+
+ref https://github.com/bowang-lab/MedSAM
+
 This is the official repository for MedSAM: Segment Anything in Medical Images.
 
 ## News
