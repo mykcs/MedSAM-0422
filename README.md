@@ -47,9 +47,9 @@ Segment other images with the following flags
 
 2. Jupyter-notebook
 
-We provide a step-by-step tutorial on [CoLab](https://colab.research.google.com/drive/19WNtRMbpsxeqimBlmJwtd1dzpaIvK2FZ?usp=sharing)
+2.1. We provide a step-by-step tutorial on [CoLab](https://colab.research.google.com/drive/19WNtRMbpsxeqimBlmJwtd1dzpaIvK2FZ?usp=sharing)
 
-You can also run it locally with `tutorial_quickstart.ipynb`.
+2.2. You can also run it locally with `tutorial_quickstart.ipynb`.
 
 3. GUI
 
