@@ -2,6 +2,16 @@
 
 ref https://github.com/bowang-lab/MedSAM
 
+---
+
+This is the official repository for MedSAM: Segment Anything in Medical Images.
+（self 2024 0422）
+
+## News
+
+- 2024.01.15: Welcome to join [CVPR 2024 Challenge: MedSAM on Laptop](https://www.codabench.org/competitions/1847/)
+- 2024.01.15: Release [LiteMedSAM](https://github.com/bowang-lab/MedSAM/blob/LiteMedSAM/README.md) and [3D Slicer Plugin](https://github.com/bowang-lab/MedSAMSlicer), 10x faster than MedSAM! 
+
 ## Installation
 1. Create a virtual environment `env-MedSAM-0422`, python=3.10
 2. run`pip3 install torch torchvision torchaudio`
@@ -51,14 +61,6 @@ python gui.py
 Load the image to the GUI and specify segmentation targets by drawing bounding boxes.
 
 
----
-
-This is the official repository for MedSAM: Segment Anything in Medical Images.
-
-## News
-
-- 2024.01.15: Welcome to join [CVPR 2024 Challenge: MedSAM on Laptop](https://www.codabench.org/competitions/1847/)
-- 2024.01.15: Release [LiteMedSAM](https://github.com/bowang-lab/MedSAM/blob/LiteMedSAM/README.md) and [3D Slicer Plugin](https://github.com/bowang-lab/MedSAMSlicer), 10x faster than MedSAM! 
 
 ## Model Training
 
@@ -66,11 +68,11 @@ This is the official repository for MedSAM: Segment Anything in Medical Images.
 
 1. Download [SAM checkpoint](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth) and place it at `work_dir/SAM/sam_vit_b_01ec64.pth` .
 
-Download the demo [dataset](https://zenodo.org/record/7860267) and unzip it to `data/FLARE22Train/`.
+2. Download the demo [dataset](https://zenodo.org/record/7860267) and unzip it to `data/FLARE22Train/`.
 
 This dataset contains 50 abdomen CT scans and each scan contains an annotation mask with 13 organs. The names of the organ label are available at [MICCAI FLARE2022](https://flare22.grand-challenge.org/).
 
-Run pre-processing
+3. Run pre-processing
 
 Install `cc3d`: `pip install connected-components-3d`
 
