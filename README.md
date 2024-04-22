@@ -49,7 +49,13 @@ Segment other images with the following flags
 
 2.1. We provide a step-by-step tutorial on [CoLab](https://colab.research.google.com/drive/19WNtRMbpsxeqimBlmJwtd1dzpaIvK2FZ?usp=sharing)
 
-2.2. You can also run it locally with `tutorial_quickstart.ipynb`.
+真的直接运行就行，不需要任何移动
+
+2.2. You can also run it locally with `tutorial_quickstart-0422.ipynb`.
+
+运行后，`medsam_vit_b.pth`会在ipynb同一目录下。
+
+试图展示原来的照片，但是发现没区别。
 
 3. GUI
 
