@@ -2,6 +2,10 @@
 
 ref https://github.com/bowang-lab/MedSAM
 
+## Installation
+1. Create a virtual environment `env-MedSAM-0422`, python=3.10
+2. 
+
 This is the official repository for MedSAM: Segment Anything in Medical Images.
 
 ## News
