@@ -1,0 +1,49 @@
+{
+    "os": "macOS-14.3.1-arm64-arm-64bit",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-04-22T18:11:50.307074",
+    "startedAt": "2024-04-22T18:11:48.979416",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/myk/PyPjcts/MedSAM-0422/train_mps.py",
+    "codePathLocal": "train_mps.py",
+    "codePath": "train_mps.py",
+    "git": {
+        "remote": "https://github.com/mykcs/MedSAM-0422.git",
+        "commit": "b664b3fb47422d365cabd0ebbc309a5c0ea72268"
+    },
+    "email": "mykcs01@163.com",
+    "root": "/Users/myk/PyPjcts/MedSAM-0422",
+    "host": "miyuki-M2Max",
+    "username": "myk",
+    "executable": "/Users/myk/anaconda3/envs/env-MedSAM-0422/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3504,
+        "min": 702,
+        "max": 3504
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3504,
+            "min": 702,
+            "max": 3504
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 13.360553741455078
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
