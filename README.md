@@ -88,6 +88,7 @@ python pre_CT_MR.py
 
 运行后有95.69GB。
 ![img.png](assets/img-pre_CT_MR.png)
+`data/npy/CT_Abd`下除了`/gts`和`/imgs`，还有一些其他文件。暂时不清楚原因。也没有删除。
 
 ### Training on multiple GPUs (Recommend)
 
